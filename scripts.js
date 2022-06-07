@@ -1,9 +1,7 @@
+var par = document.createElement('P');
+par.textContent = 'The DOM is the bomb!';
 
-var paragraph = document.createElement(paragraph);
-
-paragraph.textContent = 'The DOM is the bomb!';
-
-document.body.appendChild(paragraph);
+document.body.appendChild(par);
 
 
 var div = document.createElement('DIV');
